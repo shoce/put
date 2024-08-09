@@ -8,7 +8,7 @@ put put-file-test 600 <some-another-file
 id | put id.out.text
 sudo id | sudo put sudo.id.out.text
 
-GoFmt GoBuildNull GoRelease GoBuild
+GoFmt GoBuildNull GoBuild
 
 curl -sSL https://github.com/shoce/put/releases/latest/download/put.linux.gz | gunzip >/bin/put && chmod 755 /bin/put && ln -sf put /bin/append
 */
